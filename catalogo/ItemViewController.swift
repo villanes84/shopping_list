@@ -18,9 +18,9 @@ class ItemViewController: UIViewController {
     @IBOutlet var tfDetails: UITextField!
     
     
-    var item: String = ""
-    var quantity: String = ""
-    var info: String=""
+    var item: String = " "
+    var quantity: String = " "
+    var info: String=" "
     
     var existingItem: NSManagedObject!
     
